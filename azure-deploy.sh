@@ -13,7 +13,7 @@ appName=""
 location=""
 
 # Change this if you are using your own github repository
-gitSource="https://github.com/Azure-Samples/azure-sql-db-prisma.git"
+gitSource="https://github.com/david-yaari/azure-sql-db-prisma.git"
 gitToken=""
 EOF
 	echo "Enviroment file not detected."
