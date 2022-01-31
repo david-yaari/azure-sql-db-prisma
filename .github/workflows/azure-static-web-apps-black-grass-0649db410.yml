@@ -34,7 +34,7 @@ jobs:
           NODE_VERSION: 16       
           PRE_BUILD_COMMAND: "npm install -g prisma@3.8.1"   
           CUSTOM_BUILD_COMMAND: "npm install @prisma/client@3.8.1 && npm run build"               
-          POST_BUILD_COMMAND: "npm install @prisma/client@3.8.1"      
+          POST_BUILD_COMMAND: "npm install @prisma/client@3.8.1 && npx prisma migrate deploy"      
           ###### End of Repository/Build Configurations ######
 
   close_pull_request_job:
